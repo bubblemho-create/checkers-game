@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เกมหมากฮอส</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <div class="app-header">
+      <h1>เกมหมากฮอส</h1>
+      <div class="controls">
+        <span class="status">ตาปัจจุบัน: <span id="current-turn">ผู้เล่น</span></span>
+        <button id="reset-btn" class="btn">เริ่มใหม่</button>
+      </div>
+    </div>
+    <div class="board-wrap">
+      <div id="board"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</body>
+</html>
